@@ -1,0 +1,24 @@
+.calc_td_btn
+{
+        width:25px;
+        height:100px;
+}
+.calc_btn
+{
+        width:90px;
+        height:90px;
+        font-size:20px;
+}
+.calc_td_result
+{
+        text-align:center;
+}
+.calc_result
+{
+        width:90%;
+        text-align:right;
+}
+.display>input{
+
+	margin-left: 200px;
+}

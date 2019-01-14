@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JSDEMO</title>
+	<link rel="stylesheet" href="js.css">
+</head>
+<body>
+	<table align="center">
+	
+	<br>
+	<tr align="center" class="display">
+		<td>
+		<input colspan="10" type="text" id="display" class="calc_result" align="center" style="text-align:right;" placeholder="0">
+		</td>
+	</tr>
+	
+
+	 <tr>
+                <td class="calc_td_btn">
+                       
+                        <button class="calc_btn" onclick="Num(this)"  >CE</button>
+                </td>
+                <td class="calc_td_btn">
+                        <button class="calc_btn" onclick="appendNum(this)"  >%</button>
+                </td>
+                <td class="calc_td_btn">
+                        <button class="calc_btn" onclick="appendNum(this)"  >BCK</button>
+                </td>
+                <td class="calc_td_btn">
+                        <button class="calc_btn" onclick="appendNum(this)"  >+</button>
+                </td>
+            </tr>
+	<tr>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">7</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">8</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">9</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">/</button>
+	</td>
+	</tr>
+	<tr>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">4</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">5</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">6</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">-</button>
+	</td>
+	</tr>
+	<tr>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">1</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">2</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">3</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">X</button>
+	</td>
+	
+	</tr>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">0</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">&plusmn;</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">,</button>
+	</td>
+	<td class="calc_td_btn">
+		<button class="calc_btn" onclick="appendNum(this)">=</button>
+	</td>
+	
+	</tr>
+	<br>
+	<br>
+	
+	
+
+	</table>
+
+	<script type="text/javascript" src="script.js">
+	</script>
+</body>
+</html>
